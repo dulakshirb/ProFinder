@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="196dp">
+
+            <ImageView
+                android:id="@+id/img_coverPro"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/cover_img" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_dpProUpdate"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user_img"
+            android:layout_marginTop="-50dp"
+            android:layout_marginStart="280dp"/>
+
+        <EditText
+            android:id="@+id/txt_nameProUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/theme_color"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:inputType="textPersonName"
+            android:textColor="@color/body_text_color"
+            />
+        <EditText
+            android:id="@+id/txt_desigProUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/theme_color"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:inputType="textPersonName"
+            android:textColor="@color/body_text_color"
+            />
+
+        <EditText
+            android:id="@+id/txt_categoryProUpdate"
+            android:layout_width="0dp"
+            android:layout_height="0dp"></EditText>
+
+        <EditText
+            android:id="@+id/txt_bioUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|bottom"
+            android:inputType="textMultiLine"
+            android:backgroundTint="@color/theme_color"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/body_text_color"
+            android:lines="3" />
+
+        <EditText
+            android:id="@+id/txt_emailProUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:backgroundTint="@color/theme_color"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/body_text_color"
+            />
+
+        <EditText
+            android:id="@+id/txt_contactUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/theme_color"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:inputType="textPersonName"
+            android:textColor="@color/body_text_color"
+            />
+
+
+        <EditText
+            android:id="@+id/txt_locationUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/theme_color"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:inputType="textPersonName"
+            android:textColor="@color/body_text_color"
+            />
+
+        <EditText
+            android:id="@+id/txt_keywordsUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|bottom"
+            android:inputType="textMultiLine"
+            android:backgroundTint="@color/theme_color"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/body_text_color"
+            android:lines="2" />
+
+
+        <Button
+            android:id="@+id/btn_updatePro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/btn_normal_theme_color"
+            android:fontFamily="@font/roboto"
+            android:textFontWeight="700"
+            android:text="Update Details" />
+
+
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_changePassPro"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:layout_marginStart="30dp"-->
+<!--            android:layout_marginEnd="30dp"-->
+<!--            android:background="@drawable/btn_normal_theme_color"-->
+<!--            android:fontFamily="@font/roboto"-->
+<!--            android:textFontWeight="700"-->
+<!--            android:text="Change Password" />-->
+
+        <Button
+            android:id="@+id/btn_logoutPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/btn_normal_red_color"
+            android:fontFamily="@font/roboto"
+            android:textFontWeight="700"
+            android:text="Logout"
+            android:layout_marginBottom="32dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

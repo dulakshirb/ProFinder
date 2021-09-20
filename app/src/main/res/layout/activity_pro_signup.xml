@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".ProSignup">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="196dp">
+
+        <ImageView
+            android:id="@+id/img_coverPro"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cover_img" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_dpPro"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user_img"
+        android:layout_marginTop="-50dp"
+        android:layout_marginStart="280dp"/>
+
+    <EditText
+        android:id="@+id/txt_namePro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/theme_color"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Your Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/body_text_color"
+        android:textColorHint="@color/body_text_color" />
+    <EditText
+        android:id="@+id/txt_desigPro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/theme_color"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Designation"
+        android:inputType="textPersonName"
+        android:textColor="@color/body_text_color"
+        android:textColorHint="@color/body_text_color" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/body_text_color"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            />
+
+        <Spinner
+            android:id="@+id/spin_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/theme_color"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/body_text_color"
+            android:textColorHint="@color/body_text_color"
+            android:entries="@array/category_array"/>
+
+        <EditText
+        android:id="@+id/txt_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|bottom"
+        android:inputType="textMultiLine"
+        android:backgroundTint="@color/theme_color"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/roboto"
+        android:hint="Bio"
+        android:textColor="@color/body_text_color"
+        android:textColorHint="@color/body_text_color"
+        android:lines="3" />
+
+        <EditText
+            android:id="@+id/txt_contactNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/theme_color"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:hint="Your Contact Number"
+            android:inputType="textPersonName"
+            android:textColor="@color/body_text_color"
+            android:textColorHint="@color/body_text_color" />
+
+        <EditText
+            android:id="@+id/txt_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/theme_color"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:hint="Your Location"
+            android:inputType="textPersonName"
+            android:textColor="@color/body_text_color"
+            android:textColorHint="@color/body_text_color" />
+
+        <EditText
+            android:id="@+id/txt_keywords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|bottom"
+            android:inputType="textMultiLine"
+            android:backgroundTint="@color/theme_color"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/roboto"
+            android:hint="Keywords: doctor, health, ENT, Colombo, Dr"
+            android:textColor="@color/body_text_color"
+            android:textColorHint="@color/body_text_color"
+            android:lines="2" />
+
+        <TextView
+            android:id="@+id/txt_loginDetailsPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/body_text_color"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="30dp"
+            android:text="Login Details" />
+
+        <EditText
+            android:id="@+id/txt_emailLogPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:hint="Email"
+            android:backgroundTint="@color/theme_color"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/body_text_color"
+            android:textColorHint="@color/body_text_color" />
+
+        <EditText
+            android:id="@+id/txt_passPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:hint="Password"
+            android:backgroundTint="@color/theme_color"
+            android:textColorHint="@color/body_text_color"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/body_text_color"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/txt_conPassPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:backgroundTint="@color/theme_color"
+            android:textColorHint="@color/body_text_color"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/body_text_color"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_signupPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/btn_normal_theme_color"
+            android:fontFamily="@font/roboto"
+            android:textFontWeight="700"
+            android:text="Sign Up" />
+
+    </LinearLayout>
+</ScrollView>

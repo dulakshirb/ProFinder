@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:text="Categories"
+            android:textSize="32dp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:textColor="@color/background"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/cat_architecture"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/theme_color_bg1">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/architecture"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="Architecture"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cat_constructor"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/theme_color_bg2">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/constructor"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="Constructor"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cat_educational"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/theme_color_bg3">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/education"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="Educational"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cat_engineering"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/theme_color_bg4">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/engineer"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="Engineering"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cat_finance"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/theme_color_bg3">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/finance"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="Finance"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cat_fashion"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/theme_color_bg2">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/fashion"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="Fashion"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cat_healthcare"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/theme_color_bg1">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/health"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="Health Care"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cat_ict"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/theme_color_bg2">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ict"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="ICT"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cat_legalConsultant"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/theme_color_bg3">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/legal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="Legal Consultant"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cat_media"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/theme_color_bg4">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/media"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="Media"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cat_sports"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/theme_color_bg3">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sports"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="Sports"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cat_travelAndTourism"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/theme_color_bg2">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/travel"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="Travel &amp; Tourism"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cat_other"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/theme_color_bg4"
+                android:layout_marginBottom="32dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/other"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="Other"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:text="Categories"
+            android:textSize="32dp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:textColor="@color/background"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

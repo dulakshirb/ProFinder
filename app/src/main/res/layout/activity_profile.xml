@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="196dp">
+
+            <ImageView
+                android:id="@+id/img_coverPro"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/cover_img" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_dpProUpdate"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user_img"
+            android:layout_marginTop="-50dp"
+            android:layout_marginStart="280dp"/>
+
+
+        <TextView
+            android:id="@+id/txt_nameProProfile"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/body_text_color"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/txt_desigProProfile"
+            android:layout_width="230dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:textSize="16dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/body_text_color"
+            />
+
+<!--        <RatingBar-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="0dp"-->
+<!--            android:numStars="5"-->
+<!--            android:rating="2"-->
+<!--            android:stepSize="0.5"-->
+<!--            android:progressTint="@color/yellow"-->
+<!--            android:isIndicator="true"-->
+<!--            android:scaleX="0.5"-->
+<!--            android:scaleY="0.5"-->
+<!--            android:secondaryProgressTint="@color/black"-->
+<!--            android:progressBackgroundTint="@color/gray"-->
+<!--            />-->
+
+        <TextView
+            android:id="@+id/txt_bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|bottom"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/roboto"
+            android:textSize="18dp"
+            android:textColor="@color/body_text_color"
+            android:text="Bio:"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_bioProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|bottom"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/roboto"
+            android:textSize="18dp"
+            android:textColor="@color/body_text_color"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/txt_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|bottom"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/roboto"
+            android:textSize="18dp"
+            android:textColor="@color/body_text_color"
+            android:text="Email:"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_emailProProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:textSize="18dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/body_text_color"
+            />
+
+        <TextView
+            android:id="@+id/txt_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|bottom"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/roboto"
+            android:textSize="18dp"
+            android:textColor="@color/body_text_color"
+            android:text="Contact:"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_contactNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:textSize="18dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/body_text_color"
+            />
+
+        <TextView
+            android:id="@+id/txt_l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|bottom"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/roboto"
+            android:textSize="18dp"
+            android:textColor="@color/body_text_color"
+            android:text="Location:"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_locationProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:textSize="18dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/body_text_color"
+            />
+
+        <TextView
+            android:id="@+id/txt_k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|bottom"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/roboto"
+            android:textSize="18dp"
+            android:textColor="@color/body_text_color"
+            android:text="Keywords:"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_keywordsProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|bottom"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/roboto"
+            android:text=""
+            android:textColor="@color/body_text_color"
+            android:lines="2"
+            android:layout_marginBottom="32dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

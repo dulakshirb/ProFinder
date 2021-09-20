@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "114839635557",
+    "project_id": "profinder-795f9",
+    "storage_bucket": "profinder-795f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114839635557:android:1e342562b504cbbf33288c",
+        "android_client_info": {
+          "package_name": "com.nibm.profinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114839635557-q3dkonb29tb180lgdtpmiqjlaf069tov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAezZQvsXvbmBDctC29L8Z3BWZhh79sFEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114839635557-q3dkonb29tb180lgdtpmiqjlaf069tov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

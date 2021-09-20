@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProFinder</string>
+    <string name="title_activity_user_signup">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="category_array">
+        <item>Select</item>
+        <item>Architecture</item>
+        <item>Constructor</item>
+        <item>Educational</item>
+        <item>Engineering</item>
+        <item>Finance</item>
+        <item>Fashion</item>
+        <item>Health Care</item>
+        <item>ICT</item>
+        <item>Legal Consultant</item>
+        <item>Media</item>
+        <item>Sports</item>
+        <item>Travel &amp; Tourism</item>
+        <item>Other</item>
+    </string-array>
+</resources>
